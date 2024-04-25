@@ -1,3 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const maxNumber = arr => Math.max(...arr);
-const channelName = getChannelName(channel);
+const reversedString = str => str.split('').reverse().join('');
+const uniqueArray = arr => [...new Set(arr)];
+const scriptRootPath = path.join(repositoryRootPath, 'script');
