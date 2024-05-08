@@ -1,2 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const stringReverse = str => str.split("").reverse().join("");
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
