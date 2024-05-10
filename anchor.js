@@ -1,1 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
+const appName = getAppName(channel);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
