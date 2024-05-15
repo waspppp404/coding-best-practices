@@ -1,2 +1,2 @@
-const flattenedArray = arr => [].concat(...arr);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const channelName = getChannelName(channel);
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
