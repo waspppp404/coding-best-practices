@@ -1,1 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
+const isTabInView = () => !document.hidden;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+var pattern = {};
