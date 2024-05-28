@@ -1,2 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log("0 || 1 = "+(0 || 1));
