@@ -1,3 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const value = ( 5 < 7 ) ? "True" : "False" ;
-console.log("0 || 1 = "+(0 || 1));
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
