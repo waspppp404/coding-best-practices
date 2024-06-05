@@ -1,2 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const minNumber = arr => Math.min(...arr);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
