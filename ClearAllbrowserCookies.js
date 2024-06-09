@@ -1,2 +1,1 @@
-const channel = getChannel(computedAppVersion);
-function myAPITS(someString: string, someNum: number) { ... };
+const resultingPromises = urls.map((url) => makHttpRequest(url));
