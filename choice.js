@@ -1,3 +1,3 @@
-const isTabInView = () => !document.hidden;
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-var pattern = {};
+const results = await Promise.all(resultingPromises);
+console.log(1 +  +"2" + "2");
+const getRandomBoolean = () => Math.random() >= 0.5;
