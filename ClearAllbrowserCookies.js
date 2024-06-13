@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
