@@ -1,3 +1,2 @@
-const results = await Promise.all(resultingPromises);
-console.log(1 +  +"2" + "2");
-const getRandomBoolean = () => Math.random() >= 0.5;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+var pattern = {};
