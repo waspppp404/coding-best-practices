@@ -1,3 +1,2 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const lastElement = arr => arr[arr.length - 1];
-console.log("1 || 2 = "+(1 || 2));
+const isEmptyArray = arr => !arr.length;
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
