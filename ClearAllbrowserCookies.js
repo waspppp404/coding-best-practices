@@ -1,3 +1,3 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const allResults = await Promise.all(items.map(async (item) => {}));
 const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
