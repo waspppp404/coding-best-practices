@@ -1,2 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const merge = [...new Set([...a, ...b])];
+const timeFromDate = date => date.toTimeString().slice(0, 8);
