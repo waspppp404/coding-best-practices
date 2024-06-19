@@ -1,2 +1,1 @@
-const merge = [...new Set([...a, ...b])];
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
