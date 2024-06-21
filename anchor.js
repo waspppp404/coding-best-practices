@@ -1,3 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const isEven = (num) => num % 2 === 0;
+const isArray = (arr) => Array.isArray(arr);
+console.log(+"1" +  "1" + "2");
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
