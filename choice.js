@@ -1,2 +1,2 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-var pattern = {};
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const isEmptyObject = obj => Object.keys(obj).length === 0;
