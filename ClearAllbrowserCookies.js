@@ -1,3 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+console.log("0 && 1 = "+(0 && 1));
