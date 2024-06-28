@@ -1,3 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-console.log(+"1" +  "1" + "2");
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+var pattern = {};
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
