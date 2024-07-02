@@ -1,2 +1,3 @@
-const isEven = (num) => num % 2 === 0;
-const maxNumber = arr => Math.max(...arr);
+console.log("1 || 2 = "+(1 || 2));
+const getRandomBoolean = () => Math.random() >= 0.5;
+const arrayContains = (arr, element) => arr.includes(element);
