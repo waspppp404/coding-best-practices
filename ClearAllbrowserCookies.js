@@ -1,2 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-console.log("0 && 1 = "+(0 && 1));
+const merge = Object.assign({}, obj1, obj2);
+const merge = (a, b) => a.concat(b);
