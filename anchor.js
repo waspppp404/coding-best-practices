@@ -1,3 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const merge = [...new Set([...a, ...b])];
-const merge = [...new Set(a.concat(b))];
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
