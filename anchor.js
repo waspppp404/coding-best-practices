@@ -1,2 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const results = await Promise.all(resultingPromises);
+const flattenedArray = arr => [].concat(...arr);
