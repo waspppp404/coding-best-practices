@@ -1,3 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const result = await makeHttpRequest(url);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const isEmptyArray = arr => !arr.length;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
