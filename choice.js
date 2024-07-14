@@ -1,3 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const lastElement = arr => arr[arr.length - 1];
-const removeDuplicates = (arr) => [...new Set(arr)];
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
