@@ -1,3 +1,2 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const randomBoolean = () => Math.random() >= 0.5;
