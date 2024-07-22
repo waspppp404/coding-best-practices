@@ -1,1 +1,1 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
