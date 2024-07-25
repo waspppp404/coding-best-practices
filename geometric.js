@@ -1,3 +1,1 @@
-const flattenedArray = arr => [].concat(...arr);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
