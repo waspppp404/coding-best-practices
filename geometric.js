@@ -1,2 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const lastElement = arr => arr[arr.length - 1];
